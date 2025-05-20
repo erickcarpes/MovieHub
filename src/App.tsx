@@ -100,7 +100,6 @@ function App() {
 
           <div className="flex justify-between items-end">
             <h2 className="mt-[40px]">All Movies</h2>
-            <label htmlFor="" className="text-2xl font-bold text-white sm:text-3xl">Filter</label>  
           </div>
           
 
