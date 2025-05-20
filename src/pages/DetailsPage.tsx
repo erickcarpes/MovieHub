@@ -15,7 +15,7 @@ function DetailsPage() {
   return (
     <div className="flex-column items-center justify-center bg-[#030014] w-screen, h-screen px-5 sm:px-10 md:px-10 lg:px-70 py-5 md:py-8 overflow-y-scroll">
       <button
-        className="hidden lg:block absolute left-15 shadow-custom bg-[#0F0D23] text-[#A8B5DB] text-2xl text-3xl rounded-lg p-2 hover:cursor-pointer border-1 border-[#D6C7FF]"
+        className="hidden lg:block absolute left-15 shadow-custom bg-[#0F0D23] text-[#A8B5DB] text-2xl text-3xl rounded-lg p-2 hover:cursor-pointer border-1 border-[#D6C7FF] hover:scale-105 transition-transform duration-200 ease-in-out"
         onClick={() => window.history.back()}
       >
         Go Back
@@ -71,7 +71,7 @@ function DetailsPage() {
         </section>
       </div>
         <button
-          className="w-full mt-2 lg:hidden shadow-custom bg-[#0F0D23] text-[#A8B5DB] text-2xl rounded-lg p-1 hover:cursor-pointer border-1 border-[#D6C7FF]"
+          className="w-full mt-2 lg:hidden shadow-custom bg-[#0F0D23] text-[#A8B5DB] text-2xl rounded-lg p-1 hover:cursor-pointer border-1 border-[#D6C7FF] hover:scale-105 transition-transform duration-200 ease-in-out"
           onClick={() => window.history.back()}
         >
         Go Back
